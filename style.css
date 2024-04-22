@@ -7,11 +7,11 @@ html {
   position: fixed;
   /* Fixed sidebar */
   left: 0;
-  top: 50px;
+  /* top: 50px; */
   width: 200px;
   background-color: #f9f9f9;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
   height: 100vh;
   overflow-y: auto;
   /* Scrollable contents if overflow */
@@ -20,4 +20,6 @@ html {
 article {
   margin-left: 220px;
   /* Give space for the ToC */
+  overflow-y: auto;
+  padding-bottom: 100vh;
 }
